@@ -30,21 +30,17 @@ from the terminal prompt line by typing ```python main.py```
 
 - You will see an initialization (logging) messages followed by the message
 ```
- Uvicorn running on http://0.0.0.0:8012 (Press CTRL+C to quit)
+ Uvicorn running on http://127.0.0.1:8012 (Press CTRL+C to quit)
 ```
 
 
 ### Execution
 
 - Click on ```http://0.0.0.0:8012``` link to open in the browser. You can also copy and past the link.
-You will see something of the form
-
-| <img src="./browser-screen-1.png"> |
-| :---: |
-| __Simple Execution__ |
 
 
-- Accessing the URL ```http://0.0.0.0:8012/docs``` will navigate to the [OpenAPI](https://www.openapis.org/)
+
+- Accessing the URL ```http://127.0.0.1:8012/docs``` will navigate to the [OpenAPI](https://www.openapis.org/)
 page/documentation for the application.
 
 
@@ -58,7 +54,7 @@ page/documentation for the application.
    2. ```pip``` installing ```requirements.txt```
    3. Executing and accessing the application.
 4. In ```main.py,``` modify the line ```return {"message": f"Hello {name}"}``` to return
-a message of the form ```return {"message": f"Awesome cloud developer dff9 says Hello {name}"}```
+a message of the form ```return {"message": f"Awesome cloud developer jw4288 says Hello {name}"}```
 Replace my uni with yours.
 5. Rerun the application to test.
 
