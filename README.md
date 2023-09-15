@@ -36,7 +36,7 @@ from the terminal prompt line by typing ```python main.py```
 
 ### Execution
 
-- Click on ```http://0.0.0.0:8012``` link to open in the browser. You can also copy and past the link.
+- Click on ```http://127.0.0.1:8012``` link to open in the browser. You can also copy and past the link.
 
 
 
